@@ -40,34 +40,50 @@ footer {
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
+h1{
+     text-align: center;
+     font-size: 5rem;
+}
 .gridContainer{
      /* width: 80%; */
-     padding: 2rem;
+     
+     padding: 2rem ;
+     padding-top: 2vh;
      /* flex styles */
      display: flex;
      align-items: center;
      justify-content: center;
      /* border: 1px solid black; */
-     min-height: 100vh;
+     /* min-height: 30%;
+     max-height: ; */
+     /* max-width: 960px; */
+     background: rgba(137, 43, 226, 0.488);
+     margin: 0 20%;
 }
 
 .container{
      /* border: 1px solid red; */
      /* padding: 2rem; */
+     /* align-self: center; */
 }
 .gridDiv{
      background: rgba(0, 0, 0, 0.39);
      border: 1px solid black;
-    
-     height: 5vh;
-     width: 5vw;
+     height: 30px;
+     width: 30px;
      
 }
 .gridDiv:hover{
      background: rgba(212, 55, 55, 0.257);
 }
 
+.controls{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
 /******************************************
 /* ANIMATION STYLES
 /*******************************************/
+
 
