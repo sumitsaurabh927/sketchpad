@@ -40,8 +40,24 @@ footer {
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
-
-
+.gridContainer{
+     width: 80%;
+     padding: 2rem;
+     /* flex styles */
+     display: flex;
+     /* border: 1px solid black; */
+}
+.container{
+     border: 1px solid black;
+}
+.gridDiv{
+     background: rgba(0, 0, 0, 0.39);
+     border: 1px solid black;
+    
+     height: 10px;
+     width: 10px;
+     
+}
 
 /******************************************
 /* ANIMATION STYLES
