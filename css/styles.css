@@ -22,7 +22,7 @@
 /*******************************************/
 
 body {
-
+background: rgb(87, 87, 87);
 }
 
 
@@ -41,22 +41,30 @@ footer {
 /* ADDITIONAL STYLES
 /*******************************************/
 .gridContainer{
-     width: 80%;
+     /* width: 80%; */
      padding: 2rem;
      /* flex styles */
      display: flex;
+     align-items: center;
+     justify-content: center;
      /* border: 1px solid black; */
+     min-height: 100vh;
 }
+
 .container{
-     border: 1px solid black;
+     /* border: 1px solid red; */
+     /* padding: 2rem; */
 }
 .gridDiv{
      background: rgba(0, 0, 0, 0.39);
      border: 1px solid black;
     
-     height: 10px;
-     width: 10px;
+     height: 5vh;
+     width: 5vw;
      
+}
+.gridDiv:hover{
+     background: rgba(212, 55, 55, 0.257);
 }
 
 /******************************************
